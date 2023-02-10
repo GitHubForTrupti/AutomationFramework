@@ -1,140 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.crm.qa.testcases.LoginPageTest" time="30.872" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.crm.qa.testcases.LoginPageTest" time="48.228" tests="3" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="JOB_NAME" value="AutomationFRamework1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/AutomationFRamework1/1/display/redirect?page=tests"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\Trupti\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="2be642445b3e3089"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\Users\Trupti\AppData\Local\Temp"/>
-    <property name="NODE_LABELS" value="built-in"/>
-    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
-    <property name="user.name" value="Trupti"/>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.boot.library.path" value="C:\Users\Trupti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Trupti\eclipse-workspace\AutomationFramework"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="AutomationFRamework1"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/AutomationFRamework1/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
-    <property name="OneDrive" value="C:\Users\Trupti\OneDrive"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="LOCALAPPDATA" value="C:\Users\Trupti\AppData\Local"/>
-    <property name="java.version" value="11.0.14"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERNAME" value="Trupti"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="built-in"/>
-    <property name="OneDriveConsumer" value="C:\Users\Trupti\OneDrive"/>
-    <property name="BUILD_ID" value="1"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="=ExitCode" value="C000013A"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/AutomationFRamework1/1/display/redirect"/>
-    <property name="TMP" value="C:\Users\Trupti\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/AutomationFRamework1/1/display/redirect?page=artifacts"/>
-    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
-    <property name="user.variant" value=""/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/AutomationFRamework1/display/redirect"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-MOJTH54"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.14"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\Trupti"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="COMPUTERNAME" value="DESKTOP-MOJTH54"/>
-    <property name="user.script" value=""/>
-    <property name="user.home" value="C:\Users\Trupti"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-AutomationFRamework1-1"/>
-    <property name="JENKINS_SERVER_COOKIE" value="2be642445b3e3089"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.version.date" value="2022-01-18"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\Trupti"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Users\Trupti\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\Trupti\AppData\Roaming"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
-    <property name="java.class.path" value="C:\Users\Trupti\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\Trupti\.jenkins\war\WEB-INF\lib\remoting-3107.v665000b_51092.jar C:\Users\Trupti\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\Users\Trupti\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 56128"/>
-    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Users\Trupti\AppData\Local\Microsoft\WindowsApps;"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="jansi.mode" value="strip"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 76 Stepping 3, GenuineIntel"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="M2_HOME" value="C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="CI" value="true"/>
-    <property name="java.io.tmpdir" value="C:\Users\Trupti\AppData\Local\Temp\"/>
-    <property name="HUDSON_HOME" value="C:\Users\Trupti\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/AutomationFRamework1/1/"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="ERROR_CODE" value="1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\Trupti\eclipse-workspace\AutomationFramework"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/AutomationFRamework1/"/>
-    <property name="LOGONSERVER" value="\\DESKTOP-MOJTH54"/>
-    <property name="USERDOMAIN" value="DESKTOP-MOJTH54"/>
-    <property name="MAVEN_HOME" value="C:\Users\Trupti\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Trupti\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
-    <property name="PROCESSOR_REVISION" value="4c03"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="=C:" value="C:\Users\Trupti\Documents\Downloads"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\Trupti\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\Trupti\.jenkins\workspace\AutomationFRamework1@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\Trupti\.jenkins\workspace\AutomationFRamework1"/>
-    <property name="maven3.interceptor.common" value="C:\Users\Trupti\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
-    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
-    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Trupti\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11455065268573908348.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Trupti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Trupti/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/Trupti/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:/Users/Trupti/AppData/Local/Temp/eoi294D.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Users/Trupti/AppData/Local/Temp/eoi294D.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.14\bin;C:\Users\Trupti\AppData\Local\Microsoft\WindowsApps;;C:\Users\Trupti\Downloads;;C:\Users\Trupti\Downloads;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Trupti"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Trupti"/>
+    <property name="java.class.path" value="C:\Users\Trupti\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Users\Trupti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\Trupti\eclipse-workspace\AutomationFramework\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="m2e.build.project.data.socket.port" value="60942"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.129"/>
-  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.5"/>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.365"/>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="1.035"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="20.15">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=110.0.5481.78)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [aa460060014d4946443e533200888e7a, findElement {using=name, value=username}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.30 (aedb656755c4..., userDataDir: C:\Users\Trupti\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61011/devtoo..., se:cdpVersion: 110.0.5481.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa460060014d4946443e533200888e7a" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=110.0.5481.78)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa460060014d4946443e533200888e7a, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.30 (aedb656755c4..., userDataDir: C:\Users\Trupti\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61011/devtoo..., se:cdpVersion: 110.0.5481.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa460060014d4946443e533200888e7a
+	at com.crm.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:40)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.30 (aedb656755c469651f01505a4f15e153fc606a1e-refs/branch-heads/5481@{#191}) on port 29675
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1676057864.535][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 10, 2023 1:37:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 109
+]]></system-err>
+  </testcase>
 </testsuite>
